@@ -28,13 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.userControl11 = new People_Management__full_pro__1set.UserControl1();
             this.SuspendLayout();
+            // 
+            // userControl11
+            // 
+            this.userControl11.Location = new System.Drawing.Point(73, 21);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(1029, 519);
+            this.userControl11.TabIndex = 0;
             // 
             // FrmDetales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1228, 580);
+            this.Controls.Add(this.userControl11);
             this.Name = "FrmDetales";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -45,5 +54,7 @@
         }
 
         #endregion
+
+        private UserControl1 userControl11;
     }
 }

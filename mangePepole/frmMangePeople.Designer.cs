@@ -66,7 +66,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(36, 183);
+            this.label1.Location = new System.Drawing.Point(-161, 183);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 20);
             this.label1.TabIndex = 10;
@@ -76,7 +76,7 @@
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.Image = global::People_Management__full_pro__1set.Properties.Resources.close__1_;
-            this.btnClose.Location = new System.Drawing.Point(1636, 703);
+            this.btnClose.Location = new System.Drawing.Point(1242, 703);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(148, 56);
             this.btnClose.TabIndex = 9;
@@ -103,7 +103,7 @@
             this.dataGridViewPeople.Name = "dataGridViewPeople";
             this.dataGridViewPeople.RowHeadersWidth = 51;
             this.dataGridViewPeople.RowTemplate.Height = 24;
-            this.dataGridViewPeople.Size = new System.Drawing.Size(1758, 461);
+            this.dataGridViewPeople.Size = new System.Drawing.Size(1364, 461);
             this.dataGridViewPeople.TabIndex = 7;
             this.dataGridViewPeople.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewPeople_CellContentClick);
             // 
@@ -118,14 +118,14 @@
             this.phoneCallToolStripMenuItem,
             this.showDetailsToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(215, 188);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(169, 160);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // addToolStripMenuItem
             // 
             this.addToolStripMenuItem.Image = global::People_Management__full_pro__1set.Properties.Resources.add;
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.addToolStripMenuItem.Text = "add";
             this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click_1);
             // 
@@ -133,7 +133,7 @@
             // 
             this.upDateToolStripMenuItem.Image = global::People_Management__full_pro__1set.Properties.Resources.process_data;
             this.upDateToolStripMenuItem.Name = "upDateToolStripMenuItem";
-            this.upDateToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.upDateToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.upDateToolStripMenuItem.Text = "UpDate";
             this.upDateToolStripMenuItem.Click += new System.EventHandler(this.upDateToolStripMenuItem_Click_2);
             // 
@@ -141,7 +141,7 @@
             // 
             this.deleteToolStripMenuItem.Image = global::People_Management__full_pro__1set.Properties.Resources.close__1_;
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.deleteToolStripMenuItem.Text = "delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click_1);
             // 
@@ -149,21 +149,21 @@
             // 
             this.sendEmailToolStripMenuItem.Image = global::People_Management__full_pro__1set.Properties.Resources.general_reports;
             this.sendEmailToolStripMenuItem.Name = "sendEmailToolStripMenuItem";
-            this.sendEmailToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.sendEmailToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.sendEmailToolStripMenuItem.Text = "Send Email";
             // 
             // phoneCallToolStripMenuItem
             // 
             this.phoneCallToolStripMenuItem.Image = global::People_Management__full_pro__1set.Properties.Resources.call;
             this.phoneCallToolStripMenuItem.Name = "phoneCallToolStripMenuItem";
-            this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.phoneCallToolStripMenuItem.Text = "Phone Call";
             // 
             // showDetailsToolStripMenuItem
             // 
             this.showDetailsToolStripMenuItem.Image = global::People_Management__full_pro__1set.Properties.Resources.id;
             this.showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
-            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.showDetailsToolStripMenuItem.Text = "Show Details";
             this.showDetailsToolStripMenuItem.Click += new System.EventHandler(this.showDetailsToolStripMenuItem_Click);
             // 
@@ -176,7 +176,7 @@
             "LastName",
             "NationalNo",
             "ContactID"});
-            this.comboFilter.Location = new System.Drawing.Point(165, 179);
+            this.comboFilter.Location = new System.Drawing.Point(-32, 179);
             this.comboFilter.Name = "comboFilter";
             this.comboFilter.Size = new System.Drawing.Size(117, 24);
             this.comboFilter.TabIndex = 6;
@@ -188,7 +188,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Image = global::People_Management__full_pro__1set.Properties.Resources.process_data;
-            this.button1.Location = new System.Drawing.Point(1640, 52);
+            this.button1.Location = new System.Drawing.Point(1246, 52);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(154, 71);
             this.button1.TabIndex = 11;
@@ -207,7 +207,7 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnAdd.Image = global::People_Management__full_pro__1set.Properties.Resources.add;
-            this.btnAdd.Location = new System.Drawing.Point(1490, 49);
+            this.btnAdd.Location = new System.Drawing.Point(1096, 49);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(144, 74);
             this.btnAdd.TabIndex = 8;
@@ -218,7 +218,7 @@
             // textBoxFiltter
             // 
             this.textBoxFiltter.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxFiltter.Location = new System.Drawing.Point(326, 179);
+            this.textBoxFiltter.Location = new System.Drawing.Point(129, 179);
             this.textBoxFiltter.Name = "textBoxFiltter";
             this.textBoxFiltter.Size = new System.Drawing.Size(183, 22);
             this.textBoxFiltter.TabIndex = 13;
@@ -227,7 +227,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1796, 758);
+            this.ClientSize = new System.Drawing.Size(1402, 758);
             this.Controls.Add(this.textBoxFiltter);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);

@@ -32,6 +32,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.filterItim = new System.Windows.Forms.ComboBox();
+            this.textFilter = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,8 +44,9 @@
             this.dataGridView1.Location = new System.Drawing.Point(78, 162);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1100, 331);
+            this.dataGridView1.Size = new System.Drawing.Size(1172, 268);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button1
             // 
@@ -72,15 +76,48 @@
             this.button2.Text = "add";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(73, 127);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(98, 24);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Filter By :";
+            // 
+            // filterItim
+            // 
+            this.filterItim.FormattingEnabled = true;
+            this.filterItim.Location = new System.Drawing.Point(187, 129);
+            this.filterItim.Name = "filterItim";
+            this.filterItim.Size = new System.Drawing.Size(182, 24);
+            this.filterItim.TabIndex = 5;
+            this.filterItim.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // textFilter
+            // 
+            this.textFilter.Location = new System.Drawing.Point(415, 130);
+            this.textFilter.Name = "textFilter";
+            this.textFilter.Size = new System.Drawing.Size(176, 22);
+            this.textFilter.TabIndex = 6;
+            this.textFilter.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // manage_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1255, 566);
+            this.ClientSize = new System.Drawing.Size(1287, 719);
+            this.Controls.Add(this.textFilter);
+            this.Controls.Add(this.filterItim);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "manage_User";
             this.Text = "manage_User";
             this.Load += new System.EventHandler(this.manage_User_Load);
@@ -96,5 +133,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox filterItim;
+        private System.Windows.Forms.TextBox textFilter;
     }
 }

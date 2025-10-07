@@ -49,5 +49,22 @@ namespace People_Management__full_pro__1set
         {
  
         }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            contextMenuStrip2.Show(button2,new Point(0,button2.Height));
+        }
+
+        private void signOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm log= new LoginForm();
+            log.ShowDialog();
+        }
     }
 }

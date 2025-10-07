@@ -174,7 +174,7 @@ namespace People_Management__full_pro__1set
             Form1 form1 = new Form1();
             form1.ShowDialog();
             this.Hide();
-            this.Close();
+           this.Close();
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)

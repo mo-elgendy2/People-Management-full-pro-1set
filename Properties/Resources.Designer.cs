@@ -314,6 +314,16 @@ namespace People_Management__full_pro__1set.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap power_button_sign {
+            get {
+                object obj = ResourceManager.GetObject("power-button-sign", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap process_data {
             get {
                 object obj = ResourceManager.GetObject("process-data", resourceCulture);

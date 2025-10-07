@@ -39,7 +39,7 @@ namespace People_Management__full_pro__1set
             _Person =clsContact.Find(_PersonId);
             if (_PersonId <= 0)
             {
-                MessageBox.Show("❌ الرقم المرسل غير صالح.");
+                MessageBox.Show("❌ اid  غير صالح.");
                 return;
             }
             label13.Text = _Person.ID.ToString();
@@ -97,6 +97,11 @@ namespace People_Management__full_pro__1set
         }
 
         private void label29_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label30_Click(object sender, EventArgs e)
         {
 
         }

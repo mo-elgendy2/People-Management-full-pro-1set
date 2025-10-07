@@ -46,16 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account Settings\clsAccount Settings.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="manage User.cs">
+    <Compile Include="mange user\manage User.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="manage User.Designer.cs">
+    <Compile Include="mange user\manage User.Designer.cs">
       <DependentUpon>manage User.cs</DependentUpon>
     </Compile>
     <Compile Include="mangePepole\FrmAddPeople3.cs">
@@ -99,7 +100,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="manage User.resx">
+    <EmbeddedResource Include="mange user\manage User.resx">
       <DependentUpon>manage User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mangePepole\FrmAddPeople3.resx">
@@ -257,8 +258,9 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="NewFolder1\" />
+    <None Include="Resources\power-button-sign.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

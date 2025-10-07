@@ -22,7 +22,7 @@ namespace People_Management__full_pro__1set
         private void FrmDetales_Load(object sender, EventArgs e)
         {
           
-            UserControl2 user = new UserControl2(_conid);
+            UserControl1 user = new UserControl1(_conid);
             user.Dock = DockStyle.Fill;
             this.Controls.Add(user);
         }

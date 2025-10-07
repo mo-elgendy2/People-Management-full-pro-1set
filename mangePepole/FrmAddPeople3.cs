@@ -29,17 +29,26 @@ namespace People_Management__full_pro__1set
             userControl1 = new UserControl1(_conID);
             userControl1.Dock = DockStyle.Fill;
             this.Controls.Add(userControl1);
+            ////userControl1 = new UserControl1(_conID);
+            ////this.Controls.Add(userControl1);
+            //userControl11 = new UserControl1();
+            //this.Controls.Add(userControl11);
         }
-  
+
         public frmAddPeople3()
         {
             InitializeComponent();
            
         }
 
+        private void userControl11_Load(object sender, EventArgs e)
+        {
 
+        }
 
-        
+        private void userControl11_Load_1(object sender, EventArgs e)
+        {
 
+        }
     }
 }

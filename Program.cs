@@ -17,6 +17,20 @@ namespace People_Management__full_pro__1set
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new manage_User());
+            //using (LoginForm login = new LoginForm())
+            //{
+            //    if (login.ShowDialog() == DialogResult.OK) 
+            //    {
+
+            //        Application.Run(new Form1 ());
+            //    }
+            //    else
+            //    {
+
+            //        Application.Exit();
+            //    }
+            //}
         }
     }
-}
+    }
+
